@@ -5,6 +5,12 @@ import { ArrowRight, Zap, Shield, Wifi } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function HeroSection() {
+  const scrollToConfigurator = () => {
+    const element = document.getElementById("build-your-fleet")
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" })
+    }
+  }
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 gradient-mesh">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
@@ -52,7 +58,8 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
           >
-            <Button size="lg" className="glow-effect hover-3d-button group">
+            <Button size="lg" className="glow-effect hover-3d-button group"
+            onClick={scrollToConfigurator}>
               Configure Your Ride
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>

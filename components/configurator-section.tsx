@@ -43,7 +43,7 @@ export function ConfiguratorSection() {
   }
 
   return (
-    <section className="py-24 px-6 bg-muted/5">
+    <section id="build-your-fleet" className="py-24 px-6 bg-muted/5">
       <div className="max-w-7xl mx-auto">
         <motion.div
           className="text-center mb-16"
