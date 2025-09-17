@@ -32,7 +32,7 @@ A modern, interactive landing page for delivery scooters featuring 3D models, dy
 
 ### Setup Instructions
 
-1. Clone or download the project**
+1. Clone or download the project
 
    git clone <repository-url>
    cd futuristic-scooter-landing
