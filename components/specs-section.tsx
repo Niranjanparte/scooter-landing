@@ -8,9 +8,9 @@ const specs = [
   {
     category: "Performance",
     items: [
-      { label: "Top Speed", value: "45 km/h", highlight: true },
+      { label: "Top Speed", value: "45 km/h"},
       { label: "Range", value: "100 km", highlight: true },
-      { label: "Motor Power", value: "3000W" },
+      { label: "Motor Power", value: "3000W"},
       { label: "Acceleration", value: "0-30 km/h in 3.2s" },
     ],
   },

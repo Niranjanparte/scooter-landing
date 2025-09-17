@@ -170,7 +170,7 @@ export function FooterSection() {
               <Youtube className="w-5 h-5" />
             </a>
           </div>
-          <p className="text-sm text-white">© 2024 FutureRide. All rights reserved. Ride the future today.</p>
+          <p className="text-sm text-white">© 2025 FutureRide. All rights reserved. Ride the future today.</p>
         </motion.div>
       </div>
     </footer>
