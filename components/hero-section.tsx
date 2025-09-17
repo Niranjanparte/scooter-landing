@@ -90,11 +90,11 @@ export function HeroSection() {
         >
           <div className="relative w-full h-96 lg:h-[500px] float-animation">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-full blur-3xl"></div>
-            <img
+           {/* <img
               src="/futuristic-electric-scooter-side-view-neon-lights.jpg"
               alt="Electric Scooter"
               className="relative z-10 w-full h-full object-contain"
-            />
+            />*/}
           </div>
         </motion.div>
       </div>
